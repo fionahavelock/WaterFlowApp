@@ -27,6 +27,10 @@
 
   *(This command may take a while)
 
-7. Start Run and Debug button in Visual Studio Code
+7. Start the APP by pressing the 'Run and Debug' button on the left side of Visual Studio Code (a triangle and bug symbol). Alternatively press control + shift + d to run
+
+8. Start the application by pressing on the green button on the top left. The select box should have automatically selected 'Python: Dash'. Alternatively press F5 to start
+
+9. Inside the terminal 
 
 
