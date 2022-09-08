@@ -1,0 +1,244 @@
+/*####################################
+Contents:
+1
+
+Colours 
+#345A6B - dark blue
+#FAF1EB - white
+#A5CED9 - pale blue
+#FFB65E - yellow
+#658B8F - mouldy green
+
+######################################*/
+
+/*################################*/
+/*Navigation*/
+/*################################*/
+.nav-link {
+    color: #E0EAE9;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #658B8F;
+}
+/*hover*/
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #2E4F5E!important;
+  background-color: #D0E5E0 !important;
+}
+
+.dropdown-item {
+  color: #E0EAE9 !important;
+  background-color: #2E4F5E !important;
+
+}
+
+.dropdown-menu.show{
+  background: #2E4F5E !important;
+}
+.navbar {
+  color: #D0E5E0 !important;
+}
+
+
+.navbar-light .navbar-toggler {
+  color: #D0E5E0 !important;
+  border-color:transparent !important;
+  border-width: thin;
+}
+.navbar-toggler-icon {
+  color: #D0E5E0 !important;
+  border-color:transparent !important;
+  border-width: thin;
+}
+#navbar-toggler.navbar-toggler{
+  color: #D0E5E0 !important;
+  border-color:transparent !important;
+  border-width: thin;
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(208, 229, 224)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #D0E5E0;
+  border-color:transparent !important;
+} 
+
+/*################################*/
+/* End Navigation*/
+/*################################*/
+/*################################*/
+/*Home Page*/
+/*################################*/
+
+#horizontalLine {
+  width: 65%;
+  position: relative;
+  display: block;
+}
+
+#Image{
+  width: 200px;
+  height: 85px;
+}
+
+/*################################*/
+/*Warning Alert*/
+/*################################*/
+
+.alert-warning {
+  color: #8F6F6D;
+  background-color: #FCEDC7;
+  border-color: #c8b890;
+}
+/*################################*/
+/* Scroll bars*/
+/*################################*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #345A6B; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #345A6B; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #658B8F; 
+}
+/*################################*/
+/* Header*/
+/*################################*/
+h5 {
+  padding-left: 1rem;
+  padding-right: 3.5rem;
+  font-size: 16px;
+  border-left: #658B8F solid 0.7rem;
+  color: #2E4F5E !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+h4 {
+  color: #2E4F5E !important;
+  margin-bottom: 1.2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  padding-left: 1.5rem;
+  padding-right: 3.5rem;
+}
+
+p{
+  color: #2E4F5E !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 0.2rem;
+  font-size: 15px;
+}
+
+#linkInText {
+  color: #02A196!important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration:none;
+}
+/*letter-spacing: -.08rem !important; line-height: 1.35 !important;*/
+
+/*################################*/
+/* Card and body colours*/
+/*################################*/
+
+.card-body {
+  background-color: #E0EAE9;
+}
+
+.card {
+  background-color:#E0EAE9;
+  background: #E0EAE9;
+  border-color: #bdd4d2;
+}
+
+body {
+  font-family: sans-serif;
+  color: #2E4F5E;
+  background-color: white;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+html{
+background-color: white;
+}
+/*################################*/
+/* End Card and body colours*/
+/*################################*/
+
+/*################################*/
+/*Drop box colour and background*/
+/*################################*/
+
+/* changes the text color of input box */
+.Select-placeholder, .Select--single > .Select-control .Select-value {
+  color:#345A6B !important;
+}
+.Select-value-label {
+  color: #345A6B !important;
+}
+/* dropdown menu options */
+.VirtualizedSelectOption {
+  background-color: #E0EAE9;
+  color: #345A6B;
+}
+/* dropdown menu hover effect */
+.VirtualizedSelectFocusedOption {
+  background-color: #658B8F;
+  color: white;
+}
+.Select-control {
+  background-color: #E0EAE9 !important;
+  border-color: #345A6B #345A6B #345A6B !important;
+  border-radius: 4px;
+  border: 1px solid #345A6B !important;
+  color: #345A6B !important; }
+
+/* border on focus - default is blue
+ * shadow box around input box.  default is blue
+ */
+.is-focused:not(.is-open) > .Select-control {
+  border-color: #658B8F !important;
+  box-shadow: 0 0 4px 2px #bde9e4 !important;
+}
+/* this colors the input box text and x  of multi dropdown*/
+.Select--multi .Select-value {
+  color: #658B8F !important;
+  background-color: #D0E5E0 !important;
+  border-color: #658B8F;
+}
+/*Old code that may be useful*/
+/*
+.Select, .Select div, .Select input,.Select span { 
+  background: #F2F3F5;  /*to change the background color of the options*//*
+  color: green;  /*to change the color of the options *//*
+  } */
+
+/*hover*/ /*
+.Select:focus, .Select:hover {
+  color: orange !important;
+  background-color: purple !important;
+}
+*/
+/*for the colour of outside box when on hover*//*
+.Select-control:hover{
+  background: #1D262F;
+  color: #8CDBCC; 
+}
+/*################################*/
+/* End drop box colour and background*/
+/*################################*/
