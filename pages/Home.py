@@ -26,7 +26,7 @@ def layout():
                 html.Div([
                     html.P("References:"),
                     html.Br(),
-                    html.P("As this project is applied data science, some readings which provided fundamental knowledge needed to begin this project were not relevant to the final thesis. For this reason, I have provided an additional list of references here. These references helped me understand important concepts in hydrology and programming."),
+                    html.P("As this project is applied data science, some readings which provided fundamental knowledge needed to begin this project were not relevant to the final thesis. For this reason, I have provided an additional list of references here. These references helped towards understanding important concepts in hydrology and programming."),
                     html.Br(),
                     html.P(["European Centre for River Restoration. Website. ‘Development of a strategy to manage sediment in an appropriate way’. [last accessed: 01/07/2022]"], style={"padding-bottom": "0.5rem"}),
                     html.P(["McCuen, R. (1998) Hydrologic Analysis and Design, (2nd ed.) Pearson Education, New Jersey."], style={"padding-bottom": "0.5rem"}),
