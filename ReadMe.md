@@ -29,11 +29,11 @@
 
 7. Start the APP by pressing the run Python file button. 
 
-8. Start the application by pressing on the green button on the top left. The select box should have automatically selected 'Python: Dash'. Alternatively press F5 to start
+8. Start the application by pressing the "Run Python File" buton
 
 ![Screenshot (1298)](https://user-images.githubusercontent.com/84941463/189204663-9ab8a9e4-2504-4b39-b566-839ccd945d51.jpg)
 
 
-9. Inside the terminal 
+9. Inside the terminal the localhost web address under which the app can be reached, is displayed. Open it in any web browser.
 
 
