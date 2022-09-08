@@ -27,9 +27,12 @@
 
   *(This command may take a while)
 
-7. Start the APP by pressing the 'Run and Debug' button on the left side of Visual Studio Code (a triangle and bug symbol). Alternatively press control + shift + d to run
+7. Start the APP by pressing the run Python file button. 
 
 8. Start the application by pressing on the green button on the top left. The select box should have automatically selected 'Python: Dash'. Alternatively press F5 to start
+
+![Screenshot (1298)](https://user-images.githubusercontent.com/84941463/189204663-9ab8a9e4-2504-4b39-b566-839ccd945d51.jpg)
+
 
 9. Inside the terminal 
 
